@@ -107,7 +107,7 @@ function keyPressed() {
 
 function keyReleased () {
 
-  if(keyCode === SPACE){
+  if(keyCode === 32){
     //call shoot() function for each arrow in an array playerArrows
     if (playerArrows.length) {
       var angle = playerArcher.body.angle+PI/2;
