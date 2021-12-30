@@ -119,13 +119,8 @@ function keyReleased () {
 //Display arrow and Tranjectory
 function showArrows(index, arrows) {
   arrows[index].display();
-  tranjectory.display();
-    
-function keyReleased() {
-  if (keyCode === DOWN_ARROW) {
-    playerArrows[playerArrows.length-1].shoot()
-    }
-  }
+
+
  
 
 }
